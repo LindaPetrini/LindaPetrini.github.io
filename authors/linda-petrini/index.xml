@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Academic</title>
-    <link>https://LindaPetrini.github.io/</link>
-      <atom:link href="https://LindaPetrini.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <description>Academic</description>
+    <title>Linda Petrini | Academic</title>
+    <link>https://LindaPetrini.github.io/authors/linda-petrini/</link>
+      <atom:link href="https://LindaPetrini.github.io/authors/linda-petrini/index.xml" rel="self" type="application/rss+xml" />
+    <description>Linda Petrini</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://LindaPetrini.github.io/img/icon-192.png</url>
-      <title>Academic</title>
-      <link>https://LindaPetrini.github.io/</link>
+      <title>Linda Petrini</title>
+      <link>https://LindaPetrini.github.io/authors/linda-petrini/</link>
     </image>
     
     <item>

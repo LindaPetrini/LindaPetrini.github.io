@@ -5,12 +5,20 @@
     <link>https://LindaPetrini.github.io/publication_types/</link>
       <atom:link href="https://LindaPetrini.github.io/publication_types/index.xml" rel="self" type="application/rss+xml" />
     <description>Publication_types</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://LindaPetrini.github.io/img/icon-192.png</url>
       <title>Publication_types</title>
       <link>https://LindaPetrini.github.io/publication_types/</link>
     </image>
+    
+    <item>
+      <title>1</title>
+      <link>https://LindaPetrini.github.io/publication_types/1/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://LindaPetrini.github.io/publication_types/1/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

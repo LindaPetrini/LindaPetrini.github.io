@@ -5,12 +5,28 @@
     <link>https://LindaPetrini.github.io/publication/</link>
       <atom:link href="https://LindaPetrini.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://LindaPetrini.github.io/img/icon-192.png</url>
       <title>Publications</title>
       <link>https://LindaPetrini.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Locality and Compositionality in Zero-Shot Learning</title>
+      <link>https://LindaPetrini.github.io/publication/sylvain-2020-locality/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://LindaPetrini.github.io/publication/sylvain-2020-locality/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mutual Information heatmaps as a tool for interpretability</title>
+      <link>https://LindaPetrini.github.io/publication/petrini-2019-mutual/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://LindaPetrini.github.io/publication/petrini-2019-mutual/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

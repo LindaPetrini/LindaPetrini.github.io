@@ -5,7 +5,7 @@
     <link>https://LindaPetrini.github.io/authors/</link>
       <atom:link href="https://LindaPetrini.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://LindaPetrini.github.io/img/icon-192.png</url>
       <title>Authors</title>
@@ -13,13 +13,37 @@
     </image>
     
     <item>
+      <title>Devon Hjelm</title>
+      <link>https://LindaPetrini.github.io/authors/devon-hjelm/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://LindaPetrini.github.io/authors/devon-hjelm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linda Petrini</title>
+      <link>https://LindaPetrini.github.io/authors/linda-petrini/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://LindaPetrini.github.io/authors/linda-petrini/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tristan Sylvain</title>
+      <link>https://LindaPetrini.github.io/authors/tristan-sylvain/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://LindaPetrini.github.io/authors/tristan-sylvain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title></title>
       <link>https://LindaPetrini.github.io/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://LindaPetrini.github.io/authors/admin/</guid>
       <description>&lt;p&gt;I&#39;m currently a Google AI Resident in the Brain team in Montreal. My mentor is Laurent Dinh and we are working on generative models for unspervised object discovery.&lt;/p&gt;
-&lt;p&gt;In the past, I complited my master&#39;s at University of Amsterdam, where I worked with Rianne van den Berg (AMLAB) on priors for VAEs and semi-supervised learning, and wrote my thesis during an internship at Mila, where I worked with Devon Hjelm on fundamenta principles in Representation Learning for Zero Shot Learning.&lt;/p&gt;
-&lt;p&gt;In my free time, I practice yoga, acroyoga and read a lot.&lt;/p&gt;
+&lt;p&gt;In the past, I complited my master&#39;s at University of Amsterdam, where I worked with Rianne van den Berg (AMLAB) on priors for VAEs and semi-supervised learning, and wrote my thesis during an internship at Mila, where I worked with Devon Hjelm on fundamental principles in Representation Learning for Zero Shot Learning.&lt;/p&gt;
+&lt;p&gt;In my free time I practice yoga, acroyoga and read a lot.&lt;/p&gt;
 </description>
     </item>
     
