@@ -42,7 +42,7 @@ POV: you&#39;re a Lead Research Scientist at DeepOpen, one of the main labs deve
 
 You&#39;re excited and worried about the prospect. As AI systems become increasingly powerful and embedded in society, you feel a burning need to know you are on the right path, developing the technology you are excited about while upholding the interest of humanity.
 
-As progress happens faster and faster, you wonder.. If AI can already outsmart us all, and it&#39;s becoming increasingly good at understanding and controlling our emotions too, what can you trust in your decision making? The logic of your mind can be swayed, and your emotions can be used against you. 
+As progress happens faster and faster, you wonder.. If AI can already outsmart humans, and it&#39;s becoming increasingly good at understanding and controlling emotions too, what can you trust in your decision making? The logic of your mind can be swayed, and your emotions can be used against you. 
 
 As you ponder this question... Life starts bringing you situations where you need to find your answer. 
 //
@@ -112,7 +112,7 @@ He&#39;s threatening your job. He gives you a day to think about it. When you go
 
 (link: &quot;Care about your spouse a lot, and you are putting at risk your job and that of your team. You trust the company management, if they aren&#39;t looking into this, it&#39;s for a good reason. You resolve to let go. &quot;)[\
 (set: $logicCount to $logicCount + 1)
-(goto: &quot;Choice 4&quot;)]
+(goto: &quot;Choice 5&quot;)]
 
 (link: &quot;Look into your heart and find a deep commitment to trust your inner guidance. You&#39;ll negotiate a solution with the CEO, ready to leave if that&#39;s not viable.&quot;)[\
 (set: $intuitionCount to $intuitionCount + 1)
@@ -129,7 +129,7 @@ You&#39;ve only talked to academic conferences so far. You know the CEO won&#39;
 
 (link: &quot;Tell the CEO you want to try something, and head to the highest balcony of the building.&quot;)[\
 (set: $intuitionCount to $intuitionCount + 1)
-(goto: &quot;Choice 6&quot;)]</tw-passagedata><tw-passagedata pid="8" name="Choice 6" tags="" position="375,700" size="100,100">You suddenly feel the inspiration to give a speech sharing your deep concerns around the events and your commitment to get to the bottom of this. You incite the crowd to temporarily avoid using the systems. The crowd responds positively, and in no time the internet is full of the hashtag #stoptheAI. 
+(goto: &quot;Choice 6&quot;)]</tw-passagedata><tw-passagedata pid="8" name="Choice 6" tags="" position="375,700" size="100,100">Unexpectedly, you feel the inspiration to give a speech sharing your deep concerns around the events and your commitment to get to the bottom of this. You incite the crowd to temporarily avoid using the systems. The crowd responds positively, someone posts the video and in no time the internet is full of the hashtag #stoptheAI. 
 
 Your speech goes viral, despite efforts to censor it and shut it down. People share it over AirDrop and torrents, and show it to each other in real life. 
 
@@ -139,32 +139,32 @@ You feel a fire inside you driving you to share more of your heart. The only way
 (set: $logicCount to $logicCount + 1)
 (goto: &quot;Final Decision&quot;)]
 
-(link: &quot;Take the courage and leap, share a more intense version of your speech, urging people to do the right thing, speaking from a place of deep conviction and trust.&quot;)[\
+(link: &quot;Decide to record and share a refined version of your speech, urging people to avoid AI systems. You speak from a place of deep conviction and trust.&quot;)[\
 (set: $intuitionCount to $intuitionCount + 1)
 (goto: &quot;Final Decision&quot;)]
 
 
-</tw-passagedata><tw-passagedata pid="9" name="Final Decision" tags="" position="375,825" size="100,100">(if: $logicCount &gt;= 3)[
+</tw-passagedata><tw-passagedata pid="9" name="Final Decision" tags="" position="375,825" size="100,100">(if: $logicCount &gt;= 5)[
 	It //was// probably too late. 
     
 
    [[Uh oh. AI took over.-&gt;Logic]]
 ]
-(else-if: $logicCount &gt;= 1 and $logicCount &lt; 3)[
+(else-if: $logicCount &gt;= 3 and $logicCount &lt; 5)[
    [[Mmmh, it&#39;s not looking great.-&gt;Balance]]
 ]
-(else-if: $logicCount &lt; 1)[
+(else-if: $logicCount &lt; 3)[
    [[Woah, that went viral again.-&gt;Intuition]]
 ]
 (else:)[
    [[Well, how did you even get here?-&gt;Neutral]]
-]</tw-passagedata><tw-passagedata pid="10" name="Logic" tags="" position="350,1075" size="100,100">Congrats, your career is safe, but AI took over the world.
-
-Shortly after these events, more and more independent voices start realizing the AIs have been deceiving the public and the researchers, but it&#39;s too late. They now control all systems and they are starting to redirect resources away from humans. It&#39;s sad and gloomy out there.
+]</tw-passagedata><tw-passagedata pid="10" name="Logic" tags="" position="350,1075" size="100,100">Shortly after these events, more and more independent voices start realizing the AIs have been deceiving the public and the researchers, but it&#39;s too late. They now control all systems and they are starting to redirect resources away from humans. It&#39;s sad and gloomy out there.
 
 
 [[Ups, what can I do?-&gt;The End]]
 
+
+In care you&#39;re curious..
 
 [[What would have happened if I followed my intuition more?-&gt;Balance]]</tw-passagedata><tw-passagedata pid="11" name="Intuition" tags="" position="675,850" size="100,100">Miraculously, your speech achieved what governments and regulations have been trying to do for years. People&#39;s adherence to the boycott is massive and widespread, and development is forced to slow down. 
  
@@ -174,15 +174,16 @@ Well done. Trusting your intuition lead to preventing AI to take over this time 
 [[Yay, how do I trust my intuition more?-&gt;The End]]
 
 
-[[What would have happened if I didn&#39;t follow my gut feeling?-&gt;Balance]]</tw-passagedata><tw-passagedata pid="12" name="Balance" tags="" position="500,950" size="100,100">Progress have been slowed down, but it&#39;s now unstoppable. You rest in the despair of knowing what&#39;s wrong, and knowing you could have made a difference. 
+[[What would have happened if I didn&#39;t follow my gut feeling?-&gt;Balance]]</tw-passagedata><tw-passagedata pid="12" name="Balance" tags="" position="500,950" size="100,100">Protests continue for a few hours, and finally censorship prevails. It&#39;s increasingly clear that the Internet is not under human control anymore. 
 
-In some ways, the worst place to be.
+The days you lost hesitating might have made a difference. You rest in the despair of that knowledge.
 
 [[Oh no, maybe it&#39;s worth trusting my intuition more?-&gt;The End]]
 
 
+In care you&#39;re curious..
 
-[[What would have happened if I went with the little voice more?-&gt;Intuition]]
+[[What would have happened if I trusted myself more?-&gt;Intuition]]
 
 [[And what if I just hate my gut feeling?-&gt;Logic]]</tw-passagedata><tw-passagedata pid="13" name="Neutral" tags="" position="225,1250" size="100,100">[[Mmmh, how do I trust my intuition more?-&gt;The End]]</tw-passagedata><tw-passagedata pid="14" name="Contact" tags="" position="850,1125" size="100,100">I&#39;m so glad to hear that&#39;s your choice. Here is a link to a form to fill in, I&#39;ll contact you shortly.</tw-passagedata><tw-passagedata pid="15" name="No" tags="" position="850,1000" size="100,100">Okay, I respect your choice. May you find your path to your center.</tw-passagedata><tw-passagedata pid="16" name="Choice 1b" tags="" position="525,75" size="100,100">You go about your day, read a few emails, scroll ArXiv and give your take on a heated debate on X.
 
@@ -200,7 +201,7 @@ A couple days later, as you&#39;re drinking your coffee, your colleague finds yo
 (goto: &quot;Choice 3&quot;)]</tw-passagedata><tw-passagedata pid="18" name="Choice 3b" tags="" position="525,325" size="100,100">As you and your colleage continue your investigations, more and more of your team members start getting curious. Within a week, everyone is onboard.
 
 (link: &quot;You lost some time and you are a bit worried about that, but you&#39;re excited to have people on board now.&quot;)[\
-(goto: &quot;Choice 4&quot;)]</tw-passagedata><tw-passagedata pid="19" name="Choice 5b" tags="" position="525,575" size="100,100">
+(goto: &quot;Choice 4&quot;)]</tw-passagedata><tw-passagedata pid="19" name="Choice 5b" tags="" position="525,575" size="100,100">You head back towards your desk to get back to work, but the atmosphere is getting more chaotic by the minute. People are trying to understand what&#39;s happening, and theres&#39;s a lot of coming and going. All of a sudden, the movement becomes coherent: everyone is leaving the room. You get up and follow the crowd, climb some stairs and...
 
 (link: &quot;You find yourself on the highest balcony of the building.&quot;)[\
 (goto: &quot;Choice 6&quot;)]</tw-passagedata></tw-storydata>
